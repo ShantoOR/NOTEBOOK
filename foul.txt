@@ -1,0 +1,33 @@
+
+
+Minikube is a tool that allows you to run a single-node Kubernetes cluster on your local machine. Minikube creates a local cluster with one node that runs both the control plane (master) and the worker components.
+Minikube runs the Kubernetes cluster inside a virtual Box (VM  etc). It creates VM in your local machine and  Nodes run inside that VM.
+
+Kubectl is the command-line tool used to interact with Kubernetes clusters. It provides a way to manage Kubernetes resources, such as Pods, Deployments, Services, ConfigMaps, and more.
+	- create Kubernetes objects or resources
+	- view, update, and delete the objects
+	- inspect, debug, configure the state of the cluster or individual resources.
+
+   How kubectl Works:
+    • When you run a kubectl command, it sends an API request to the Kubernetes API server, which is the main control point of the Kubernetes cluster.
+    • The API server processes the request and interacts with other Kubernetes components (like the scheduler, controller manager, and etcd) to execute the action you requested.
+    • The API server then returns the result to kubectl, which displays the output on your terminal.
+
+
+Minikube creates or runs the cluster. It manages the environment. Whereas, kubectl doesn’t create any cluster but can create objects or resources and then manages them. Nevertheless it can inspect the cluster environment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
